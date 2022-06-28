@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d67a0f80f73249e1e87dc02a41074b03",
+    "revision": "0e393d5b263c2fcc7bad459715ee5b70",
     "url": "/Vikri/index.html"
   },
   {
-    "revision": "c8d980a9d3afb91a5201",
+    "revision": "95e48d0f30f620163758",
     "url": "/Vikri/static/css/main.c2499e96.chunk.css"
   },
   {
-    "revision": "2a848963e755efd8a2d9",
-    "url": "/Vikri/static/js/2.22e5691d.chunk.js"
+    "revision": "64c2427e9f8c3c1ed6a7",
+    "url": "/Vikri/static/js/2.2ceaadd5.chunk.js"
   },
   {
-    "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/Vikri/static/js/2.22e5691d.chunk.js.LICENSE.txt"
+    "revision": "cba25d5ae52b3088a64bf1481443e4df",
+    "url": "/Vikri/static/js/2.2ceaadd5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8d980a9d3afb91a5201",
-    "url": "/Vikri/static/js/main.72edb459.chunk.js"
+    "revision": "95e48d0f30f620163758",
+    "url": "/Vikri/static/js/main.6ac1d3e0.chunk.js"
   },
   {
     "revision": "bbfea2463944e41f7ebf",
