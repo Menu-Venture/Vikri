@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Vikri/static/css/main.c2499e96.chunk.css",
-    "main.js": "/Vikri/static/js/main.aa1a336d.chunk.js",
-    "main.js.map": "/Vikri/static/js/main.aa1a336d.chunk.js.map",
+    "main.js": "/Vikri/static/js/main.f11c9bb8.chunk.js",
+    "main.js.map": "/Vikri/static/js/main.f11c9bb8.chunk.js.map",
     "runtime-main.js": "/Vikri/static/js/runtime-main.8468b690.js",
     "runtime-main.js.map": "/Vikri/static/js/runtime-main.8468b690.js.map",
-    "static/js/2.9f9a6ae3.chunk.js": "/Vikri/static/js/2.9f9a6ae3.chunk.js",
-    "static/js/2.9f9a6ae3.chunk.js.map": "/Vikri/static/js/2.9f9a6ae3.chunk.js.map",
+    "static/js/2.3ca167aa.chunk.js": "/Vikri/static/js/2.3ca167aa.chunk.js",
+    "static/js/2.3ca167aa.chunk.js.map": "/Vikri/static/js/2.3ca167aa.chunk.js.map",
     "index.html": "/Vikri/index.html",
-    "precache-manifest.01e682090e4e6900427aba723f8c3dec.js": "/Vikri/precache-manifest.01e682090e4e6900427aba723f8c3dec.js",
+    "precache-manifest.85b245432eedba2cb027a7ecfbac3927.js": "/Vikri/precache-manifest.85b245432eedba2cb027a7ecfbac3927.js",
     "service-worker.js": "/Vikri/service-worker.js",
     "static/css/main.c2499e96.chunk.css.map": "/Vikri/static/css/main.c2499e96.chunk.css.map",
-    "static/js/2.9f9a6ae3.chunk.js.LICENSE.txt": "/Vikri/static/js/2.9f9a6ae3.chunk.js.LICENSE.txt",
+    "static/js/2.3ca167aa.chunk.js.LICENSE.txt": "/Vikri/static/js/2.3ca167aa.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/Vikri/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-01.svg": "/Vikri/static/media/feature-tile-icon-01.0f9928d7.svg",
     "static/media/feature-tile-icon-02.svg": "/Vikri/static/media/feature-tile-icon-02.bd39f304.svg",
@@ -22,14 +22,14 @@
     "static/media/features-split-image-01.png": "/Vikri/static/media/features-split-image-01.7a9184e9.png",
     "static/media/features-split-image-02.png": "/Vikri/static/media/features-split-image-02.e119ce98.png",
     "static/media/features-split-image-03.png": "/Vikri/static/media/features-split-image-03.4e477f4c.png",
-    "static/media/logo.svg": "/Vikri/static/media/logo.fa69d04f.svg",
+    "static/media/logo.png": "/Vikri/static/media/logo.65270ae9.png",
     "static/media/video-placeholder.jpg": "/Vikri/static/media/video-placeholder.643e8430.jpg",
     "static/media/video-placeholder2.mp4": "/Vikri/static/media/video-placeholder2.9bf2e6d7.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.8468b690.js",
-    "static/js/2.9f9a6ae3.chunk.js",
+    "static/js/2.3ca167aa.chunk.js",
     "static/css/main.c2499e96.chunk.css",
-    "static/js/main.aa1a336d.chunk.js"
+    "static/js/main.f11c9bb8.chunk.js"
   ]
 }
