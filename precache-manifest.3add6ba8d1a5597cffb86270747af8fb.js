@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecea15d90146c1bb246daf0acc3b01c6",
+    "revision": "d67a0f80f73249e1e87dc02a41074b03",
     "url": "/Vikri/index.html"
   },
   {
-    "revision": "e79f40f0ca4a9541ec2a",
+    "revision": "c8d980a9d3afb91a5201",
     "url": "/Vikri/static/css/main.c2499e96.chunk.css"
   },
   {
-    "revision": "2ed130a61de13d014adc",
-    "url": "/Vikri/static/js/2.a8088f81.chunk.js"
+    "revision": "2a848963e755efd8a2d9",
+    "url": "/Vikri/static/js/2.22e5691d.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/Vikri/static/js/2.a8088f81.chunk.js.LICENSE.txt"
+    "url": "/Vikri/static/js/2.22e5691d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e79f40f0ca4a9541ec2a",
-    "url": "/Vikri/static/js/main.a1417e5d.chunk.js"
+    "revision": "c8d980a9d3afb91a5201",
+    "url": "/Vikri/static/js/main.72edb459.chunk.js"
   },
   {
-    "revision": "470f974387c101cff670",
-    "url": "/Vikri/static/js/runtime-main.791d005b.js"
+    "revision": "bbfea2463944e41f7ebf",
+    "url": "/Vikri/static/js/runtime-main.8468b690.js"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
