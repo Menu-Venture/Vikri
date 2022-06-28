@@ -110,13 +110,20 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      {/* <Link to="#0" onClick={closeMenu}>Documentation</Link> */}
+                      <Link to='#0' onClick={closeMenu}>
+                        Contack Us
+                      </Link>
                     </li>
                   </ul>
                   {!hideSignin && (
                     <ul className='list-reset header-nav-right'>
                       <li>
-                        {/* <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link> */}
+                        <Link
+                          to='#0'
+                          className='button button-primary button-wide-mobile button-sm'
+                          onClick={closeMenu}>
+                          View Sample's
+                        </Link>
                       </li>
                     </ul>
                   )}
