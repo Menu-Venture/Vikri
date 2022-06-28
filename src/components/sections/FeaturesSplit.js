@@ -71,7 +71,7 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className='mt-0 mb-12'>Scan QR code from your phone</h3>
                 <p className='m-0'>
-                  Guest Scan’s QR code placed on the table with the mobile
+                  Guest Scan's QR code placed on the table with the mobile
                   phone. This Qr code will take you to your browser
                 </p>
               </div>
