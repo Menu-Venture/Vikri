@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch, Route, Routes } from 'react-router-dom';
 // import AppRoute from "./utils/AppRoute";
 import ScrollReveal from './utils/ScrollReveal';
+import ContactUs from './components/sections/ContactUs';
 //import ReactGA from 'react-ga';
 
 // Layouts
@@ -46,6 +47,7 @@ const App = () => {
         <LayoutDefault>
           <Routes>
             <Route exact path='/' element={<Home />} />
+            <Route exact path='/contact' element={<ContactUs />} />
           </Routes>
         </LayoutDefault>
       </main>

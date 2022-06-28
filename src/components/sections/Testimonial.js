@@ -58,7 +58,9 @@ const Testimonial = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-content'>
                   <p className='text-sm mb-0'>
-                    — Using digital menu is so simple, it's just few clicks and from the customer's standpoint it's very intuitive. Anytime and anywhere. 
+                    — Using digital menu is so simple, it's just few clicks and
+                    from the customer's standpoint it's very intuitive. Anytime
+                    and anywhere.
                   </p>
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
@@ -67,7 +69,7 @@ const Testimonial = ({
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#'>AppName</a>
                   </span>
                 </div>
               </div>
@@ -77,7 +79,9 @@ const Testimonial = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-content'>
                   <p className='text-sm mb-0'>
-                    — We're a really busy restaurant, and Vikri gives our customers digital experience for viewing menu and listing selected menu items.
+                    — We're a really busy restaurant, and Vikri gives our
+                    customers digital experience for viewing menu and listing
+                    selected menu items.
                   </p>
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
@@ -86,7 +90,7 @@ const Testimonial = ({
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#'>AppName</a>
                   </span>
                 </div>
               </div>
@@ -98,7 +102,9 @@ const Testimonial = ({
               <div className='tiles-item-inner'>
                 <div className='testimonial-item-content'>
                   <p className='text-sm mb-0'>
-                    — We have increased our productivity and reduced our turn around time by atleast 30%. Customers are scanning and using digital medium.
+                    — We have increased our productivity and reduced our turn
+                    around time by atleast 30%. Customers are scanning and using
+                    digital medium.
                   </p>
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
@@ -107,7 +113,7 @@ const Testimonial = ({
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
+                    <a href='#'>AppName</a>
                   </span>
                 </div>
               </div>

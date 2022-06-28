@@ -98,7 +98,7 @@ const Hero = ({
             <a
               // data-video='https://player.vimeo.com/video/174002812'
               data-video={require('./../../assets/images/video-placeholder2.mp4')}
-              href='#0'
+              href='#'
               aria-controls='video-modal'
               onClick={openModal}>
               <Image

@@ -33,8 +33,8 @@ const ContactUs = ({
   );
 
   const sectionHeader = {
-    title: 'Form',
-    paragraph: 'Connect Instantly :  +91 9082671865',
+    title: 'Contact Us',
+    paragraph: 'Lets Connect Instantly : +91 9082671865',
   };
   return (
     <>
@@ -47,41 +47,50 @@ const ContactUs = ({
           <div className={innerClasses}>
             <div className='reveal-from-bottom' data-reveal-delay='600'>
               <div className='container'>
-                <div className='cta-action'>
-                  <Input
-                    id='name'
-                    type='text'
-                    label='Name'
-                    placeholder='Please Insert Your Name'></Input>
+                <div className='cta-action' id='ct'>
+                  <form
+                    className='form'
+                    action='https://docs.google.com/forms/d/e/1FAIpQLScyHnNuvaBdlwSyx_cFG1zmF0F5iZtJB7R-tfBCPDR0sLc4yA/formResponse'>
+                    <Input
+                      id='name'
+                      type='text'
+                      label='Name'
+                      name='entry.1807595019'
+                      placeholder='Name'></Input>
 
-                  <Input
-                    id='phone number'
-                    type='number'
-                    label='Phone Number'
-                    placeholder='Please Insert Your Phone Number'></Input>
+                    <Input
+                      id='phone number'
+                      type='number'
+                      label='Phone Number'
+                      placeholder='Phone Number'
+                      name='entry.598174878'></Input>
 
-                  <Input
-                    id='restaurant name'
-                    type='text'
-                    label='Restaurant Name'
-                    placeholder='Please Insert Your Resturant Name'></Input>
-                  <br />
-                  <br />
-                  <ButtonGroup>
-                    <Button
-                      color='primary'
-                      wideMobile
-                      href='https://cruip.com/'>
-                      Submit
-                    </Button>
-                    <Button
-                      tag='a'
-                      color='dark'
-                      wideMobile
-                      href='https://github.com/cruip/open-react-template/'>
-                      View Samples
-                    </Button>
-                  </ButtonGroup>
+                    <Input
+                      id='restaurant name'
+                      type='text'
+                      label='Restaurant Name'
+                      placeholder='Resturant Name'
+                      name='entry.699471327'></Input>
+                    <br />
+                    <br />
+
+                    <ButtonGroup>
+                      <Button
+                        color='primary'
+                        wideMobile
+                        type='submit'
+                        value='Send'>
+                        Submit
+                      </Button>
+                      <Button
+                        tag='a'
+                        color='dark'
+                        wideMobile
+                        href='https://github.com/cruip/open-react-template/'>
+                        View Samples
+                      </Button>
+                    </ButtonGroup>
+                  </form>
                 </div>
               </div>
             </div>
