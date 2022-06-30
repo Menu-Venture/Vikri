@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link, HashLink } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Dropdown from '../elements/Dropdown';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -102,6 +103,7 @@ const Header = ({
               </button>
               <nav
                 ref={nav}
+                style={{ maxHeight: '500px' }}
                 className={classNames('header-nav', isActive && 'is-active')}>
                 <div className='header-nav-inner'>
                   <ul
@@ -118,12 +120,13 @@ const Header = ({
                   {!hideSignin && (
                     <ul className='list-reset header-nav-right'>
                       <li>
-                        <Link
+                        {/* <Link
                           to='#'
                           className='button button-primary button-wide-mobile button-sm'
                           onClick={closeMenu}>
                           View Samples
-                        </Link>
+                        </Link> */}
+                        <Dropdown />
                       </li>
                     </ul>
                   )}

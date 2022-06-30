@@ -4,7 +4,7 @@ import { Router, BrowserRouter, HashRouter } from "react-router-dom";
 //import { createBrowserHistory } from "history";
 
 import App from "./App";
-//import './App.css';
+// import './App.css';
 import "./assets/scss/style.scss";
 
 //const history = createBrowserHistory();

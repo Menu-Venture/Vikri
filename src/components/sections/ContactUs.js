@@ -7,6 +7,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import SectionHeader from './partials/SectionHeader';
 import Input from '../elements/Input';
+import Dropdown from '../elements/Dropdown';
 const ContactUs = ({
   className,
   topOuterDivider,
@@ -82,15 +83,25 @@ const ContactUs = ({
                         value='Send'>
                         Submit
                       </Button>
-                      <Button
+                      
+                      {/* <Button
                         tag='a'
                         color='dark'
                         wideMobile
                         href='https://github.com/cruip/open-react-template/'>
                         View Samples
-                      </Button>
+                      </Button> */}
+
+                      {/* <select>
+        <option value="fruit">Fruit</option>
+        <option value="vegetable">Vegetable</option>
+        <option value="meat">Meat</option>
+      </select> */}
                     </ButtonGroup>
                   </form>
+                  <br />
+                      <br />
+                      <Dropdown />
                 </div>
               </div>
             </div>

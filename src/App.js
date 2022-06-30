@@ -5,7 +5,7 @@ import { useLocation, Switch, Route, Routes } from 'react-router-dom';
 // import AppRoute from "./utils/AppRoute";
 import ScrollReveal from './utils/ScrollReveal';
 import ContactUs from './components/sections/ContactUs';
-//import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -14,12 +14,12 @@ import LayoutDefault from './layouts/LayoutDefault';
 import Home from './views/Home';
 
 // Initialize Google Analytics
-//ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize('G-HV4P7G2B2S');
 
-// const trackPage = page => {
-//   ReactGA.set({ page });
-//   ReactGA.pageview(page);
-// };
+const trackPage = (page) => {
+  ReactGA.set({ page });
+  ReactGA.pageview('/');
+};
 
 const App = () => {
   const childRef = useRef();
