@@ -65,11 +65,11 @@ const Testimonial = ({
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
                   <span className='testimonial-item-name text-color-high'>
-                    Roman Level
+                    Gopal Verma
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#'>AppName</a>
+                    <a href='#'>Digital Menu</a>
                   </span>
                 </div>
               </div>
@@ -86,11 +86,11 @@ const Testimonial = ({
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
                   <span className='testimonial-item-name text-color-high'>
-                    Diana Rynzhuk
+                    Natasha B
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#'>AppName</a>
+                    <a href='#'>Digital Menu</a>
                   </span>
                 </div>
               </div>
@@ -109,11 +109,11 @@ const Testimonial = ({
                 </div>
                 <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
                   <span className='testimonial-item-name text-color-high'>
-                    Ben Stafford
+                    Vishnu K.L.
                   </span>
                   <span className='text-color-low'> / </span>
                   <span className='testimonial-item-link'>
-                    <a href='#'>AppName</a>
+                    <a href='#'>Digital Menu</a>
                   </span>
                 </div>
               </div>

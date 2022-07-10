@@ -1,3 +1,27 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: block;
+  /* position: absolute; */
+  font-size: small;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 4px 6px;
+  color : #000000;
+  z-index: 1;
+}
+
+
+.a{
+  color :black
+}
+
+
+
 .menu-container {
     position: absolute;
     align-items: center;
@@ -8,10 +32,10 @@
   .menu {
     background: #ffffff;
     border-radius: 8px;
-    position: absolute;
+    /* position: absolute; */
     top: 60px;
     right: 0;
-    width: 100px;
+    /* width: 100px; */
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
     opacity: 0;
     visibility: hidden;
@@ -38,7 +62,7 @@
   .menu li a {
     text-decoration: none;
     color: #333333;
-    padding: 15px 20px;
+    padding: 3px 5px;
     display: block;
   }
 
@@ -47,7 +71,8 @@
     border-radius: 90px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 4px 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);

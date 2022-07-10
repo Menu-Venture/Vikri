@@ -54,6 +54,7 @@
 
 .modal-inner {
 	max-height: calc(100vh - #{$modal--outer-padding-v__mobile} * 2);
+	// max-height: 300px;
 	overflow: auto;
 	position: relative;
 	width: calc(100%  - ( #{$container--padding__mobile} * 2 ));
@@ -117,6 +118,7 @@
 	.modal-inner {
 		margin: 0 auto;
 		max-height: calc(100vh - #{$modal--outer-padding-v__desktop} * 2);
+		// max-height: 400px;
 	}
 
 	.modal-content {

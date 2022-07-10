@@ -7,7 +7,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import SectionHeader from './partials/SectionHeader';
 import Input from '../elements/Input';
-import Dropdown from '../elements/Dropdown';
+import Dropdown from '../elements/DropdownMenu';
 const ContactUs = ({
   className,
   topOuterDivider,
@@ -34,7 +34,7 @@ const ContactUs = ({
   );
 
   const sectionHeader = {
-    title: 'Contact Us',
+    title: 'Contact Us to View Our Samples',
     paragraph: 'Lets Connect Instantly : +91 9082671865',
   };
   return (
@@ -49,6 +49,7 @@ const ContactUs = ({
             <div className='reveal-from-bottom' data-reveal-delay='600'>
               <div className='container'>
                 <div className='cta-action' id='ct'>
+                  {/* admin vikri Form */}
                   <form
                     className='form'
                     action='https://docs.google.com/forms/d/e/1FAIpQLScyHnNuvaBdlwSyx_cFG1zmF0F5iZtJB7R-tfBCPDR0sLc4yA/formResponse'>
@@ -83,25 +84,13 @@ const ContactUs = ({
                         value='Send'>
                         Submit
                       </Button>
-                      
-                      {/* <Button
-                        tag='a'
-                        color='dark'
-                        wideMobile
-                        href='https://github.com/cruip/open-react-template/'>
-                        View Samples
-                      </Button> */}
-
-                      {/* <select>
-        <option value="fruit">Fruit</option>
-        <option value="vegetable">Vegetable</option>
-        <option value="meat">Meat</option>
-      </select> */}
                     </ButtonGroup>
                   </form>
                   <br />
-                      <br />
-                      <Dropdown />
+                  <br />
+                  <div id='dd'>
+                    <Dropdown wideMobile />
+                  </div>
                 </div>
               </div>
             </div>

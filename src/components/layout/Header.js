@@ -3,9 +3,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link, HashLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-import Dropdown from '../elements/Dropdown';
+// import Dropdown from '../elements/DropdownMenu';
+import Profile from '../../assets/images/Vi-kri Profile.pdf';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -113,8 +114,14 @@ const Header = ({
                     )}>
                     <li>
                       <Link to='/contact#ct' onClick={closeMenu}>
-                        Contact Us
+                        Contact Us - Sample Menu
                       </Link>
+                    </li>
+                    <li>
+                      {/* Profile */}
+                      <a href={Profile} target='_blank' rel='noreferrer'>
+                        Profile
+                      </a>
                     </li>
                   </ul>
                   {!hideSignin && (
@@ -126,7 +133,10 @@ const Header = ({
                           onClick={closeMenu}>
                           View Samples
                         </Link> */}
-                        <Dropdown />
+                        {/* <Link to='/drop#dd' onClick={closeMenu}>
+                          Dropdown
+                        </Link> */}
+                        {/* <Dropdown wideMobile /> */}
                       </li>
                     </ul>
                   )}

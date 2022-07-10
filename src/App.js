@@ -12,6 +12,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views
 import Home from './views/Home';
+import DropdownMenu from './components/elements/DropdownMenu';
 
 // Initialize Google Analytics
 ReactGA.initialize('G-HV4P7G2B2S');
@@ -48,6 +49,7 @@ const App = () => {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/contact' element={<ContactUs />} />
+            <Route exact path='/drop' element={<DropdownMenu />} />
           </Routes>
         </LayoutDefault>
       </main>

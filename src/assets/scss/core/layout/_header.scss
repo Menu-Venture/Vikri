@@ -96,12 +96,13 @@
 			position: absolute;
 			left: 0;
 			right: 0;
-			top: 100%;
+			top: 100%;	
 			z-index: 9999;
 			background: color-bg(menu-mobile);
-			max-height: 0;
+			max-height: 0px;
+			// max-height: 400px;
 	        opacity: 0;
-	        overflow: hidden;
+	        // overflow: hidden;
 	        transition: max-height .25s ease-in-out, opacity .15s;
 
 			&.is-active {
