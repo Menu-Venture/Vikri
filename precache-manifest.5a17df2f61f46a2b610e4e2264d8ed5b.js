@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d8d9a8434e53c0a5f8ac26eb8e79e2a",
+    "revision": "35a4047b468e35287d03ccacff5b2f26",
     "url": "/Vikri/index.html"
   },
   {
-    "revision": "f22822783f5481eb5094",
+    "revision": "a810de112f951708f25d",
     "url": "/Vikri/static/css/main.20a9e101.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vikri/static/js/2.c47dfe06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f22822783f5481eb5094",
-    "url": "/Vikri/static/js/main.0eaf1a08.chunk.js"
+    "revision": "a810de112f951708f25d",
+    "url": "/Vikri/static/js/main.98c45b91.chunk.js"
   },
   {
     "revision": "bbfea2463944e41f7ebf",
